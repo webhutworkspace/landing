@@ -1,0 +1,175 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+
+
+
+  /*karthik custom Styles */
+  
+.responsive
+{
+  width:100%;
+  height: auto;
+}
+
+/* .fixd
+{
+  top: 166px;
+    right: 30px;
+    position: fixed;
+} */
+
+.reltv
+{
+  position: relative;
+  bottom:550px;
+}
+
+.table_tx
+{
+  line-height: 58px;
+  font-size: 20px;
+}
+
+.p_tbl p
+{
+  font-size: 16px;
+}
+
+.titl
+{
+  position: relative;
+  bottom:200px;
+  left:50px;
+
+}
+
+.fo_16
+{
+  font-size: 18px;
+}
+
+.title_t
+{
+  color:white;
+  font-weight: 900;
+  font-size: 46px;
+  background: rgb(0,0,0,0.2);
+  padding:5px;
+  width:max-content;
+}
+
+.p_tbl p i{
+  font-size: 36px;
+}
+
+/* line 1, ../sass/demo.scss */
+html, body {
+  
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+}
+
+/* line 8, ../sass/demo.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 12, ../sass/demo.scss */
+a {
+  color: #4ab19a;
+}
+
+/* line 16, ../sass/demo.scss */
+.clear {
+  clear: both;
+  float: none;
+  width: 100%;
+}
+
+/* line 22, ../sass/demo.scss */
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 32, ../sass/demo.scss */
+.container .gallery a img {
+  float: left;
+  width: 20%;
+  height: auto;
+  border: 2px solid #fff;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+}
+/* line 46, ../sass/demo.scss */
+.container .gallery a:hover img {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 5;
+}
+/* line 57, ../sass/demo.scss */
+.container .gallery a.big img {
+  width: 40%;
+}
+
+/* line 65, ../sass/demo.scss */
+.align-center {
+  text-align: center;
+}
+
+
+
+@media (max-width: 740px) {
+  .full-page-intro {
+    height: 1000px; } }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+
+@media(max-width:1366px)
+{
+  
+}
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
